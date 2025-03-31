@@ -5,3 +5,11 @@
 
 // Escribe tu código aquí debajo:
 
+var a = 5; 
+var b = 3; 
+if (a > b) {
+    alert("a es mayor que b");
+} else {
+    alert("a no es mayor que b");
+}
+// Fin del ejercicio 3
