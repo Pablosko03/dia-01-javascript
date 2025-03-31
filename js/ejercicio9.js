@@ -15,4 +15,3 @@ if (palabra === "JavaScript") {
 else {
     alert("Intenta de nuevo"); 
 }
-// Fin del ejercicio 9

@@ -6,4 +6,3 @@
 // Escribe tu código aquí debajo:
 
 var edad = prompt("¿Cuál es tu edad?"); 
-// Fin del ejercicio 4

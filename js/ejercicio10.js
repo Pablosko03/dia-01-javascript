@@ -13,4 +13,3 @@ if (doble > 10) {
     alert("El doble es mayor que 10"); 
 }
 
-// Fin del ejercicio 10

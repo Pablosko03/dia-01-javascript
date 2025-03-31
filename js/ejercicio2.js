@@ -6,4 +6,3 @@
 // Escribe tu código aquí debajo:
 
 var nombre = "Pablo"; // Reemplaza "Tu Nombre" con tu nombre real
-// Fin del ejercicio 2

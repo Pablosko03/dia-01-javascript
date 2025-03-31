@@ -6,4 +6,3 @@
 // Escribe tu código aquí debajo:
 
 var respuesta = confirm("¿Te gusta el chocolate?"); 
-// Fin del ejercicio 6

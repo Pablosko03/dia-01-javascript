@@ -12,4 +12,3 @@ if (edad_usuario > 18) {
 } else {
     alert("No eres mayor de 18 años");
 }
-// Fin del ejercicio 7

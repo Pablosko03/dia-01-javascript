@@ -7,6 +7,3 @@
 
 var holaMundo = "¡Hola, mundo!";
 alert(holaMundo);
-
-// Fin del ejercicio 1
-

@@ -12,4 +12,3 @@ if (a > b) {
 } else {
     alert("a no es mayor que b");
 }
-// Fin del ejercicio 3

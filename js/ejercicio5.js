@@ -12,4 +12,3 @@ if (num1 === num2) {
 } else {
     alert("Los números no son iguales");
 }
-// Fin del ejercicio 5
