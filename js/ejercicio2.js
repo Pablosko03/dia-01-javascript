@@ -7,3 +7,7 @@
 
 // Escribe tu código aquí debajo:
 
+function cuadrado(numero) {
+    return numero * numero;
+}
+

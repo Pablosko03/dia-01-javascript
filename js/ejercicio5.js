@@ -8,3 +8,10 @@
 
 // Escribe tu código aquí debajo:
 
+function calcularDescuento(precio, descuento) {
+    if (descuento < 0 || descuento > 100) {
+        return "Descuento inválido";
+    }
+    return precio - (precio * (descuento / 100));
+}
+

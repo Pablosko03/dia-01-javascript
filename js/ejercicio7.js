@@ -9,3 +9,22 @@
 
 // Escribe tu código aquí debajo:
 
+function operacion(num1, num2, operador) {
+    switch (operador) {
+        case '+':
+            return num1 + num2;
+        case '-':
+            return num1 - num2;
+        case '*':
+            return num1 * num2;
+        case '/':
+            if (num2 !== 0) {
+                return num1 / num2;
+            } else {
+                return "Error: División por cero";
+            }
+        default:
+            return "Operador inválido";
+    }
+}
+

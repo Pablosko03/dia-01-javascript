@@ -11,3 +11,24 @@
 
 // Escribe tu código aquí debajo:
 
+function notaTexto(nota) {
+    switch (nota) {
+        case 10:
+            return "Sobresaliente";
+        case 9:
+            return "Excelente";
+        case 8:
+        case 7:
+            return "Notable";
+        case 6:
+        case 5:
+            return "Aprobado";
+        default:
+            if (nota < 5 && nota >= 0) {
+                return "Suspendido";
+            } else {
+                return "Nota inválida";
+            }
+    }
+}
+
