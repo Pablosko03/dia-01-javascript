@@ -1,11 +1,5 @@
 class AIAssistant {
     constructor() {
-        if (!localStorage.getItem('openai_api_key')) {
-            apikey = prompt('Indicame la api key que te dio yunior');
-            if (apikey) {
-                localStorage.setItem('openai_api_key', apikey);
-            }
-        }
         this.API_KEY = localStorage.getItem('openai_api_key');
         this.ENDPOINT = 'https://api.openai.com/v1/chat/completions';
         this.context = this.initializeContext();
