@@ -13,18 +13,23 @@ function operacion(num1, num2, operador) {
     switch (operador) {
         case '+':
             return num1 + num2;
+            break;
         case '-':
             return num1 - num2;
+            break;
         case '*':
             return num1 * num2;
+            break;
         case '/':
             if (num2 !== 0) {
                 return num1 / num2;
             } else {
                 return "Error: División por cero";
             }
+            break;
         default:
             return "Operador inválido";
+            break;
     }
 }
 

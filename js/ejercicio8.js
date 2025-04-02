@@ -15,20 +15,25 @@ function notaTexto(nota) {
     switch (nota) {
         case 10:
             return "Sobresaliente";
+            break;
         case 9:
             return "Excelente";
+            break;
         case 8:
         case 7:
             return "Notable";
+            break;
         case 6:
         case 5:
             return "Aprobado";
+            break;
         default:
             if (nota < 5 && nota >= 0) {
                 return "Suspendido";
             } else {
                 return "Nota inválida";
             }
+            break;
     }
 }
 

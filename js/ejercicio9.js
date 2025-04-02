@@ -14,11 +14,15 @@ function saludoIdioma(idioma) {
     switch (idioma) {
         case "es":
             return "Hola";
+            break;
         case "en":
             return "Hello";
+            break;
         case "fr":
             return "Bonjour";
+            break;
         default:
             return "Idioma no soportado";
+            break;
     }
 }
